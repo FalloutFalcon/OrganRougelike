@@ -1,2 +1,1 @@
-"# silver-sniffle" 
-"# silver-sniffle" 
+Thanks for playing!
