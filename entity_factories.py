@@ -17,10 +17,10 @@ thief = Actor(
     ai_cls=HostileEnemy,
     fighter=Fighter(hp=6, defense=0, power=3),
 )
-officer = Actor(
-    char="O",
-    color=(50, 50, 200),
-    name="Officer",
+gang_member = Actor(
+    char="G",
+    color=(150, 150, 150),
+    name="Gang Member",
     ai_cls=HostileEnemy,
-    fighter=Fighter(hp=16, defense=1, power=6),
+    fighter=Fighter(hp=16, defense=1, power=4),
 )

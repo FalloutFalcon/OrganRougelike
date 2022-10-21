@@ -55,7 +55,7 @@ def place_entities(
             if random.random() < 0.8:
                 entity_factories.thief.spawn(dungeon, x, y)
             else:
-                entity_factories.officer.spawn(dungeon, x, y)
+                entity_factories.gang_member.spawn(dungeon, x, y)
 
 def tunnel_between(
     start: Tuple[int, int], end: Tuple[int, int]
