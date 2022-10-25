@@ -22,6 +22,7 @@ def main() -> None:
     max_rooms = 30
 
     max_monsters_per_room = 3
+    max_items_per_room = 2
 
     tileset = tcod.tileset.load_tilesheet(
         "Anikki_square_10x10.png", 16, 16, tcod.tileset.CHARMAP_CP437
@@ -39,6 +40,7 @@ def main() -> None:
         map_width=map_width,
         map_height=map_height,
         max_monsters_per_room=max_monsters_per_room,
+        max_items_per_room=max_items_per_room,
         engine=engine,
     )
 
